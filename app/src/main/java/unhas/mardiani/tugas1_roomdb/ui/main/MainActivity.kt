@@ -1,4 +1,4 @@
-package unhas.mardiani.tugas1_roomdb
+package unhas.mardiani.tugas1_roomdb.ui.main
 
 import android.os.Bundle
 import android.view.Menu
@@ -12,9 +12,6 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import unhas.mardiani.tugas1_roomdb.R
 import unhas.mardiani.tugas1_roomdb.db.note.Note
 import kotlinx.android.synthetic.main.activity_main.*
-import unhas.mardiani.tugas1_roomdb.ui.main.NoteAdapter
-import unhas.mardiani.tugas1_roomdb.ui.main.NoteViewModel
-
 
 class MainActivity : AppCompatActivity() {
 
